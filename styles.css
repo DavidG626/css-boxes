@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* static box example */
+.static-container {
+    position: static;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 25px 25px;
+}
+
+.static-box {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.normal-box-static {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid red;
+    text-align: center;
+}
+/* static box example end */
+
+
+/* relative box example */
+.relative-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 25px 25px;
+}
+
+.relative-box {
+    position: relative;
+    top: 25%;    
+    left: 25%;   
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.normal-box-relative {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid red;
+    text-align: center;
+}
+/* relative box example end */
+
+
+/* absolute box example */
+.absolute-container {
+    position: relative; /* Must be relative or any non-static position */
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 25px 25px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 25%;    
+    left: 25%;   
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.normal-box-absolute {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid red;
+    text-align: center;
+}
+/* absolute box example end */
+
+
+/* fixed box example */
+/* .fixed-container {
+    height: 200px;
+    border: 1px solid #000;
+    margin: 25px 25px;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 25%;    
+    left: 25%;   
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.normal-box-fixed {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid red;
+    text-align: center;
+} */
+/* fixed box example end */
+
+
+/* sticky box example */
+.sticky-container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 25px 25px;
+}
+
+.sticky-box {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Sticks to the top of the viewport */
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.normal-box-sticky {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid red;
+    text-align: center;
+}
+/* sticky box example end */
