@@ -1,2 +1,2 @@
 # css-boxes
-Exercise I created to learn css box types
+Simple exercise I created to help me understand css box types.
